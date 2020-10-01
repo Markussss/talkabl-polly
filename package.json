@@ -1,0 +1,25 @@
+{
+  "name": "talkabl-polly",
+  "version": "1.0.0",
+  "description": "Add Amazon Polly to Talkabl.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Markussss/talkabl-polly.git"
+  },
+  "author": "Markus Igeland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Markussss/talkabl-polly/issues"
+  },
+  "homepage": "https://github.com/Markussss/talkabl-polly#readme",
+  "devDependencies": {
+    "webpack-userscript": "^2.5.6"
+  },
+  "dependencies": {
+    "@aws-sdk/client-polly-browser": "0.1.0-preview.2"
+  }
+}
